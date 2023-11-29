@@ -9,7 +9,15 @@ class MyTest (unittest.TestCase):
     def test(self):
 
         self.assertEqual(fun(3), 4)
+        #assertEqual testa se é igual
 
 if __name__ == '__main__':
 
     unittest.main()
+
+# PS C:\Users\20201214010004\PDS> python main.py -v
+# .
+# ----------------------------------------------------------------------
+# Ran 1 test in 0.000s
+#
+# OK 
