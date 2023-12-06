@@ -22,4 +22,5 @@ class TestOdometria(unittest.TestCase):
         odometria_mock.velocidade.return_value = 59
         self.assertTrue(odometria_mock.alerta())
 
+# Um Mock que passa diferentes valores para odometria_mock
 #python -m unittest odometria_unittest.py -v
