@@ -19,10 +19,9 @@ def alerta():
     return False
 
 from unittest.mock import Mock
-mock_velocidade = Mock()
-mock_velocidade.return_value = 70
+velocidade = Mock()
+velocidade.return_value = 70
 print(alerta())
 
 # Pra não precisar depender da velocidade gerar um número aleatório entre 60 e 100, cria um mock que dá sempre um valor entre esses números.
 # Retorna o resultado de uma função.
-
